@@ -1,33 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   <section id="grid--container">
-    <!-- first container -->
-        <nav>
-            <section>
-                <img src="" alt="">
-                <span>Christine Jade</span>
-                <span id="log-ppou">log-out | add acc</span>
-            </section>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>Bookmarks</li>
-                <li>Notifications</li>
-                <section class="weather--api">
-                    <h4>Weather Update</h4>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
+        <title>Document</title>
+    </head>
+    <body>
+    <section id="grid--container">
+        <!-- first container -->
+            <nav>
+                <section>
+                    <img src="" alt="">
+                    <h1>Christine Jade</h1>
+                    <!-- <span id="log-ppou">log-out | add acc</span> -->
                 </section>
-            </ul>
-        </nav>
-    <!-- second container -->
+                <ul>
+                    <li class="nav--list"><img src="/assets/nav-btn-design.svg" alt="">Home</li>
+                    <li class="nav--list"><img src="/assets/nav-btn-design.svg" alt="">Profile</li>
+                    <li class="nav--list"><img src="/assets/nav-btn-design.svg" alt="">Messages</li>
+                    <li class="nav--list"><img src="/assets/nav-btn-design.svg" alt="">Bookmarks</li>
+                    <li class="nav--list"><img src="/assets/nav-btn-design.svg" alt="">Notifications</li>
+                    <section class="weather--api">
+                        <h4>Weather Update</h4>     
+                    </section>
+                </ul>
+                <span>
+                    copyright @2023 - chjadeavila
+                </span>
+            </nav>
 
-   </section>
-</body>
-</html>
+        <!-- second container -->
+            <section id="body-lists">
+                <form id="post--form" action="">
+                    <img src="assets/default-user-profile.svg" alt="">
+                    <textarea id="post--area"name="textarea" rows="5" cols="30" placeholder="What is Happening?"></textarea>
+                    <button>post</button>
+                </form>
+                <section class="post--lists">
+                    <div>
+                        <div class="user--header">
+                            <img src="/assets/default-user-profile.svg" alt="">
+                            <span>Christine Jade Avila | @chjadeavila</span>
+                        </div>
+                        <div class="user--post">
+                            le sarefim
+                        </div>
+                        <form class="btn--nav" action="">
+                            <ul id="ul">
+                                <li id="li">comment</li>
+                                <li id="li">repost</li>
+                                <li id="li">like</li>
+                            </ul>
+                        </form>
+                    </div>
+                    
+                    
+                </section>
+            </section>
+
+        <!-- third container -->
+            <section class="third--section">
+                <input id="search" type="search" placeholder="Search...">
+                <div id="trends">
+                    <span>WHAT'S HAPPENING?</span>
+                </div>
+                <div id="messages--">
+                    <span>messages -- --- --- view</span>
+                </div>
+            </section>
+    </section>
+    </body>
+    </html>

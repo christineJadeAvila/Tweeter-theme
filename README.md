@@ -20,9 +20,8 @@ under-construction
 <img src="readmeImgs/messages.jpg">
 <br>
 
-Design by Christine Jade
+Design by Christine Jade <br>
 Tool and Software: Figma
 
 Design Inspiration: Twitter
 
-<link rel="stylesheet" href="https://www.figma.com/file/TsmMwpGrd2fk5zdg14dTKa/tweeter?type=design&node-id=812%3A94&t=iDWbxutA9Ynnr3W8-1">

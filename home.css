@@ -42,7 +42,7 @@
     grid-template-columns: 7% 93%;
 
     margin: var(--normal-margin);
-    border-bottom: 0.5px solid var(--main-color);
+    border-bottom: 0.5px solid var(--main-color); 
 }
 
 #post--button {
@@ -67,6 +67,22 @@
 }
 #username {
     opacity: 50%;
+}
+.user--post {
+    text-align: center;
+}
+
+/* post nav bar */
+#nav--list{
+    display: flex;
+    justify-content: center;
+}
+#nav--list img {
+    margin: 1rem;
+}
+#nav--list img:hover {
+    transform: rotate(0.1turn);
+    cursor: pointer;
 }
 
 

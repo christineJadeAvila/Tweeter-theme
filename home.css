@@ -1,96 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
+
+
 :root {
-    font-family: "Poppins";
+    --main-font: "Poppins", Arial;
+    --main-color: #7856FF;
+    
+    font-family: var(--main-font);
+    color: var(--main-color);
     margin: 0px;
+    
    
-}
-#post--area {
-    border: 0;
-}
-
-textarea::placeholder {
-    color: #7856FF;
-    font-family: "Poppins";
-    font-size: large;
-}
-
-ul {
-    list-style-type: none;
-}
-
-#ul {
-    display: flex;
-}
-
-#li {
-    margin: 1rem;
-}
-#li:hover {
-    color: red;
 }
 
 #grid--container {
     display: grid;
     grid-template-columns: 20% 50% 30%;
-  
 }
 
-#body-lists {
-    border-right: 0.5px solid #7856FF;
-}
-#post--form {
-    margin: 2rem;
-}
-nav {
-   
-    border-right: 0.5px solid #7856FF;
-    height: 44.1rem;
-    
-}
+#post--area {   
+    resize: none;
+    height: 181px;
+    width: 618px;;
 
-#search {
-
-    border: 0.5px #7856FF solid;
-    padding: 0.5rem;
-    margin: 1rem;
-
-    border-radius: 10px;
-
-}
-
-.weather--api {
-    border: 0.5px solid #7856FF;
-    border-radius: 10px;
-    
-}
-
-.nav--list {
-    font-size: x-large;
-      
-}
-
-.post--lists {
-    border: 0.5px solid #7856FF;
-}
-.user--post {
-    border: 0.5px solid #7856FF;
-    padding: 1rem;
-    margin: 1rem;
-}
-
-.btn--nav {
-    border: 0.5px solid #7856FF;
-}
-
-#trends {
-    border: 0.5px solid #7856FF;
-    padding: 1rem;
-    margin: 2rem;
-}
-
-#messages-- {
-    border: 0.5px solid #7856FF;
-    padding: 1rem;
-    margin: 2rem;
+    color: var(--main-color);
+ 
 }

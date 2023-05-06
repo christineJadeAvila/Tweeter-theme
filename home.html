@@ -10,7 +10,7 @@
     <body>
     <section id="grid--container">
         <!-- first container -->
-            <nav>
+            <nav id="nav--container">
                 <section>
                     <img src="" alt="">
                     <h1>Christine Jade</h1>
@@ -33,16 +33,20 @@
 
         <!-- second container -->
             <section id="body-lists">
-                <form id="post--form" action="">
+
+                <div id="upper--post-body">
                     <img src="assets/default-user-profile.svg" alt="">
-                    <textarea id="post--area"name="textarea" rows="5" cols="30" placeholder="What is Happening?"></textarea>
-                    <button>post</button>
-                </form>
+                    <form id="post--form" action="">
+                        <textarea id="post--area"name="textarea" rows="5" cols="30" placeholder="What is Happening?"></textarea>
+                        <button id="post--button">post</button>
+                    </form>
+                </div>
+               
                 <section class="post--lists">
-                    <div>
+                    <div id="post--properties">
                         <div class="user--header">
                             <img src="/assets/default-user-profile.svg" alt="">
-                            <span>Christine Jade Avila | @chjadeavila</span>
+                            <h1 id="name"><b>Christine Jade Avila </b><span id="username">@chjadeavila</span> </h1>
                         </div>
                         <div class="user--post">
                             le sarefim
@@ -61,7 +65,7 @@
             </section>
 
         <!-- third container -->
-            <section class="third--section">
+            <section id="query--section">
                 <input id="search" type="search" placeholder="Search...">
                 <div id="trends">
                     <span>WHAT'S HAPPENING?</span>

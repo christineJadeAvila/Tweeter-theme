@@ -17,6 +17,9 @@
    
 }
 
+hr {
+    color: var(--main-color);
+}
 #grid--container {
     display: grid;
     grid-template-columns: 20% 50% 30%;
@@ -42,9 +45,7 @@
     grid-template-columns: 7% 93%;
 
     margin: var(--normal-margin);
-    border-bottom: 0.5px solid var(--main-color); 
 }
-
 #post--button {
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     border: none;
@@ -52,11 +53,19 @@
     color: var(--main-light-color);
     border-radius: var(--normal-margin);
 }
-
 #post--properties {
     margin: var(--normal-margin);
 }
 
+#body-lists {
+   
+    width: 100%;
+    height: 50%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify; 
+                
+}
 /* user posts property styles */
 .user--header {
     display: flex;
@@ -65,26 +74,29 @@
     margin-left: var(--normal-margin);
     font-weight: var(--fweight-s);
 }
-#username {
+#username { 
     opacity: 50%;
 }
 .user--post {
-    text-align: center;
-}
+    margin-left: 4rem;
+    margin-right: 4rem;
 
+    text-align: left;
+}
 /* post nav bar */
 #nav--list{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+
+    list-style-type: none;
 }
-#nav--list img {
-    margin: 1rem;
+#nav--list li {
+    display: flex;
 }
 #nav--list img:hover {
     transform: rotate(0.1turn);
     cursor: pointer;
 }
-
 
 /* FIRST CONTAINER CSS */
 #nav--container {
@@ -94,4 +106,36 @@
 /* THIRD CONTAINER STYLES */
 #query--section {
     border-left: 0.5px solid var(--main-color);
+}
+
+#search {
+    border: 0.5px solid var(--main-color);
+    border-radius: 10px;
+
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#search::placeholder {
+    color: var(--main-color);
+}
+
+#trends {
+    border: 0.5px solid var(--main-color);
+    border-radius: 10px;
+
+    width: 82%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#messages-- {
+    border: 0.5px solid var(--main-color);
+    border-radius: 10px;
+
+    width: 82%;
+    margin: 1rem;
+    padding: 1rem;
+
 }

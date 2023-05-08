@@ -13,8 +13,6 @@
     
     font-family: var(--main-font);
     margin: 0px 1rem 0px 1rem;
-    
-   
 }
 
 hr {
@@ -29,7 +27,7 @@ hr {
 #post--area {   
     resize: none;
     height: 181px;
-    width: 518px;;
+    width: 318px;;
 
     color: var(--main-color);
     font-family: var(--main-font);
@@ -42,12 +40,13 @@ hr {
 }
 #upper--post-body {
     display: grid;
-    grid-template-columns: 7% 93%;
+    grid-template-columns: 10% 90%;
 
     margin: var(--normal-margin);
 }
 #post--button {
     padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    margin-left: 3rem;
     border: none;
     background-color: var(--main-color);
     color: var(--main-light-color);
@@ -107,7 +106,7 @@ hr {
     border: 0.5px solid var(--main-color);
     border-radius: 10px;
 
-    width: 90%;
+    width: 100%;
     margin: 1rem;
     padding: 1rem;
 }
@@ -120,7 +119,7 @@ hr {
     border: 0.5px solid var(--main-color);
     border-radius: 10px;
 
-    width: 82%;
+    width: 100%;
     margin: 1rem;
     padding: 1rem;
 }
@@ -129,7 +128,7 @@ hr {
     border: 0.5px solid var(--main-color);
     border-radius: 10px;
 
-    width: 82%;
+    width: 100%;
     margin: 1rem;
     padding: 1rem;
 

@@ -12,7 +12,7 @@
     --normal-margin: 1rem;
     
     font-family: var(--main-font);
-    margin: 0px;
+    margin: 0px 1rem 0px 1rem;
     
    
 }
@@ -21,8 +21,8 @@ hr {
     color: var(--main-color);
 }
 #grid--container {
-    display: grid;
-    grid-template-columns: 20% 50% 30%;
+    display: flex;
+    justify-content: center;
 }
 
 /* SECOND CONTAINER CSS */
@@ -58,12 +58,7 @@ hr {
 }
 
 #body-lists {
-   
-    width: 100%;
-    height: 50%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-align:justify; 
+    width: 40%;
                 
 }
 /* user posts property styles */

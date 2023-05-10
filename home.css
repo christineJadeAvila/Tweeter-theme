@@ -92,9 +92,31 @@ hr {
     cursor: pointer;
 }
 
+
+
 /* FIRST CONTAINER CSS */
 #nav--container {
     border-right: 0.5px solid var(--main-color);
+}
+#f-user--header {
+    display: flex;
+    margin: 1rem 5rem 0 0;
+    font-size: small;
+}
+.f-nav--list {
+    padding: 0.5rem;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+.weather--api {         
+    border: 0.5px solid var(--main-color);
+    border-radius: 10px;
+
+    padding: 0rem 50px 140px 1.5rem;
+
+    margin-top: 1rem;
+    margin-right: 3rem;
 }
 
 /* THIRD CONTAINER STYLES */
@@ -104,7 +126,7 @@ hr {
 
 #search {
     border: 0.5px solid var(--main-color);
-    border-radius: 10px;
+    border-radius: 20px;
 
     width: 100%;
     margin: 1rem;
@@ -117,19 +139,38 @@ hr {
 
 #trends {
     border: 0.5px solid var(--main-color);
-    border-radius: 10px;
+    border-radius: 20px;
 
+    height: 400px;
     width: 100%;
     margin: 1rem;
     padding: 1rem;
+
 }
 
 #messages-- {
     border: 0.5px solid var(--main-color);
-    border-radius: 10px;
+    border-radius: 20px;
 
     width: 100%;
+    
     margin: 1rem;
     padding: 1rem;
 
+}
+
+#query--container {
+    margin-left: 2rem;
+
+}
+
+.trending--condition {
+    line-height: 0px;
+    font-weight: var(--fweight-s);
+}
+.trends--lists {
+    margin-left: 1rem;
+}
+#live--status {
+    color: red;
 }

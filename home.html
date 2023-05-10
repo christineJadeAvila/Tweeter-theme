@@ -11,17 +11,16 @@
     <section id="grid--container">
         <!-- first container -->
             <nav id="nav--container">
-                <section>
-                    <img src="" alt="">
-                    <h1>Christine Jade</h1>
-                    <!-- <span id="log-ppou">log-out | add acc</span> -->
-                </section>
+                <div id="f-user--header">
+                    <img src="/assets/default-user-profile.svg" alt="">
+                    <h1 id="name"><b>Christine Jade Avila </b><br><span id="username">@chjadeavila</span> </h1>
+                </div>
                 <ul>
-                    <li class="nav--list"><img alt="">Home
-                    <li class="nav--list"><img alt="">Profile
-                    <li class="nav--list"><img alt="">Messages
-                    <li class="nav--list"><img alt="">Bookmarks
-                    <li class="nav--list"><img alt="">Notifications
+                    <li class="f-nav--list"><b>Home</b></li>
+                    <li class="f-nav--list">Profile</li>
+                    <li class="f-nav--list">Messages</li>
+                    <li class="f-nav--list">Bookmarks</li>
+                    <li class="f-nav--list">Notifications</li>
                     <section class="weather--api">
                         <h4>Weather Update</h4>     
                     </section>
@@ -147,15 +146,21 @@
 
         <!-- third container -->
             <section id="query--section">
-                <input id="search" type="search" placeholder="Search...">
-                <div id="trends">
-                    <span>What is Happening?</span>
-                    <div id="trends--lists">
-                        
+                <div id="query--container">
+                    <input id="search" type="search" placeholder="Search...">
+                    <div id="trends">
+                        <span>What is Happening?</span>
+                        <div class="trends--lists">
+                            <!-- if trending's live -->
+                            <h4 class="trending--condition">TRENDING <span id="live--status">LIVE!</span></h4>
+                            <!-- else -->
+                            <h4 class="trending--content">DOTA 2 is BACK!</h4>
+                        </div>
                     </div>
-                </div>
-                <div id="messages--">
-                    <span>messages -- --- --- view</span>
+                    <div id="messages--">
+                        <span>messages -------</span>
+                        <span>view</span>
+                    </div>
                 </div>
             </section>
     </section>

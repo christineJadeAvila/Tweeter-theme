@@ -55,7 +55,9 @@ hr {
 #post--properties {
     margin: var(--normal-margin);
 }
-
+.post--lists:hover {
+    opacity: 70%;
+}
 #body-lists {
     width: 40%;
                 

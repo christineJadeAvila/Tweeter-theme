@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>Tweeter | Profile</title>
+</head>
+<body>
+    <section id="grid--container">
+        <!-- first container -->
+            <nav id="nav--container">
+                <div id="f-user--header">
+                    <img src="/assets/default-user-profile.svg" alt="">
+                    <h1 id="name"><b>Christine Jade Avila </b><br><span id="username">@chjadeavila</span> </h1>
+                </div>
+                <ul>
+                    <li class="f-nav--list"><b>Home</b></li>
+                    <li class="f-nav--list">Profile</li>
+                    <li class="f-nav--list">Messages</li>
+                    <li class="f-nav--list">Bookmarks</li>
+                    <li class="f-nav--list">Notifications</li>
+                    <section class="weather--api">
+                        <h4>Weather Update</h4>     
+                    </section>
+                </ul>
+                <!-- <span>
+                    copyright @2023 - chjadeavila
+                </span> -->
+            </nav>
+
+        <!-- second container -->
+            <section id="body-lists">
+
+                <div id="profile--defaults">
+                    <div id="cover--photo"></div>
+                    <div id="profile--photo"></div>
+                </div>
+
+               <hr>
+                <!-- post lists start -->
+                <section class="post--lists">
+                    <div id="post--properties">
+                        <div class="user--header">
+                            <img src="/assets/default-user-profile.svg" alt="">
+                            <h1 id="name"><b>Christine Jade Avila </b><span id="username">@chjadeavila</span> </h1>
+                        </div>
+                        <div class="user--post">
+                            le sarefim
+                        </div>
+                        <form class="btn--nav" action="">
+                            <ul id="nav--list">
+                                <li><img src="assets/icons8-speech-bubble-96 1.png" alt=""><span>30</span></li>
+                                <li><img src="assets/icons8-retweet-96 1.png" alt=""><span>30</span></li>
+                                <li><img src="assets/icons8-heart-96 1.png" alt=""><span>30</span></li>
+                            </ul>
+                        </form>
+                    </div>
+                </section>
+                <hr>
+                <!-- post lists end -->
+            </section>
+
+        <!-- third container -->
+            <section id="query--section">
+                <div id="query--container">
+                    <input id="search" type="search" placeholder="Search...">
+                    <div id="trends">
+                        <span>What is Happening?</span>
+                        <div class="trends--lists">
+                            <!-- if trending's live -->
+                            <h4 class="trending--condition">Trending <span id="live--status">LIVE!</span></h4>
+                            <!-- else -->
+                            <h4 class="trending--content">DOTA 2 is BACK!</h4>
+                        </div>
+                        <div class="trends--lists">
+                            <!-- if trending's live -->
+                            <h4 class="trending--condition">Trending <span id="live--status">LIVE!</span></h4>
+                            <!-- else -->
+                            <h4 class="trending--content">KING CHARLES CORONATION DAY</h4>
+                        </div>
+                        <div class="trends--lists">
+                            <!-- if trending's live -->
+                            <h4 class="trending--condition">Trending <span id="live--status">LIVE!</span></h4>
+                            <!-- else -->
+                            <h4 class="trending--content">IMAGINE DRAGONS</h4>
+                        </div>
+                    </div>
+                    <div id="messages--">
+                        <span>messages -------</span>
+                        <span>view</span>
+                    </div>
+                </div>
+            </section>
+    </section>
+</body>
+</html>

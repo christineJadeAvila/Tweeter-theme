@@ -7,8 +7,14 @@
 
 #chatmates {
     font-size: x-small ;  
-    background-color: var(--light-main-color);
+   
 
+}
+.cmates {
+    margin: 1rem;
+}
+.cmates:hover {
+    background-color: var(--light-main-color);
 }
 .user--messages {
     margin-left: 4rem;

@@ -59,6 +59,10 @@ hr {
 .post--lists:hover {
     opacity: 70%;
 }
+
+.post--lists:active {
+    opacity: 100%;
+}
 #body-lists {
     width: 40%;
                 
@@ -98,15 +102,21 @@ hr {
     cursor: pointer;
 }
 
+#nav--list li:active {
+    color: var(--main-color);
+    display: flex;
+}
+
 
 
 /* FIRST CONTAINER CSS */
 #nav--container {
     border-right: 0.5px solid var(--main-color);
+    border-left: 0.5px solid var(--main-color);
 }
 #f-user--header {
     display: flex;
-    margin: 1rem 5rem 0 0;
+    margin: 1rem 5rem 0 2rem;
     font-size: small;
 }
 .f-nav--list {
@@ -115,7 +125,8 @@ hr {
     justify-content: space-around;
     margin-left: 1rem;
 }
-.f-nav--list:hover {
+.f-nav--list:active {
+    color: #7856FF;
     text-decoration: underline;
 }
 .weather--api {         
@@ -126,11 +137,13 @@ hr {
 
     margin-top: 1rem;
     margin-right: 3rem;
+    
 }
 
 /* THIRD CONTAINER STYLES */
 #query--section {
     border-left: 0.5px solid var(--main-color);
+    border-right: 0.5px solid var(--main-color);
 }
 
 #search {
@@ -170,7 +183,7 @@ hr {
 
 #query--container {
     margin-left: 2rem;
-
+    margin-right: 2rem;
 }
 
 .trending--condition {

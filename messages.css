@@ -2,10 +2,12 @@
 
 #messages-lists {
     margin: 1rem;
+     
 }
 
 #chatmates {
-    font-size:  small ;
+    font-size: x-small ;
+    
 }
 .user--messages {
     margin-left: 4rem;
@@ -16,10 +18,12 @@
 
 .profile--photo {
     border: 1px solid var(--main-color);
-    margin: 25% 0% 10% 50%;
-    border-radius: 50px;
-    padding: 50px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 
+    margin-left: 7.5rem;
+   
 }
 
 #text--messages {
@@ -28,5 +32,34 @@
     
         width: 280px;
         margin: 1rem;
-        padding: 1rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#m-search {
+    border: 0.5px solid var(--main-color);
+    border-radius: 20px;
+
+    width: 280px;
+    margin: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.m-user--header {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    
+}
+
+#messages--section {
+    border-left: 0.5px solid var(--main-color);
+    border-right: 0.5px solid var(--main-color);;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    padding: 30px;
 }

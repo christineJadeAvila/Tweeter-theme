@@ -1,13 +1,14 @@
 @import "home.css";
 
 #messages-lists {
-    margin: 1rem;
+    
      
 }
 
 #chatmates {
-    font-size: x-small ;
-    
+    font-size: x-small ;  
+    background-color: var(--light-main-color);
+
 }
 .user--messages {
     margin-left: 4rem;
@@ -22,7 +23,7 @@
     height: 100px;
     width: 100px;
 
-    margin-left: 7.5rem;
+    margin-left: 7.7rem;
    
 }
 
@@ -50,7 +51,6 @@
 
     text-align: center;
 
-    
 }
 
 #messages--section {
@@ -62,4 +62,28 @@
     justify-content: space-around;
 
     padding: 30px;
+}
+.messages--container {
+    margin: 1rem;
+    font-size: x-small;
+}
+.from--messages {
+    border: 0.5px solid var(--light-main-color);
+    border-radius: 10px 10px 10px 0px;
+    text-align: left;
+    background-color: var(--light-main-color);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+
+    max-width: 150px;
+}
+
+.to--messages {
+    border: 0.5px solid var(--light-main-color);
+    border-radius: 10px 10px 0px 10px;
+    text-align: right;
+    background-color: var(--light-main-color);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    max-width: 150px;
+    
+    margin-left: 150px;
 }

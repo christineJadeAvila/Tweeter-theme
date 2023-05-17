@@ -125,8 +125,8 @@ hr {
     justify-content: space-around;
     margin-left: 1rem;
 }
-.f-nav--list:active {
-    color: #7856FF;
+.f-nav--list:hover {
+    color: var(--main-color);
     text-decoration: underline;
 }
 .weather--api {         

@@ -1,14 +1,8 @@
 @import "home.css";
 
-#messages-lists {
-    
-     
-}
-
+/* Second Container */
 #chatmates {
     font-size: x-small ;  
-   
-
 }
 .cmates {
     margin: 1rem;
@@ -22,17 +16,6 @@
 
     text-align: left;
 }
-
-.profile--photo {
-    border: 1px solid var(--main-color);
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-
-    margin-left: 7.7rem;
-   
-}
-
 #text--messages {
         border: 0.5px solid var(--main-color);
         border-radius: 20px;
@@ -41,7 +24,6 @@
         margin: 1rem;
         padding: 0.5rem 1rem 0.5rem 1rem;
 }
-
 #m-search {
     border: 0.5px solid var(--main-color);
     border-radius: 20px;
@@ -51,14 +33,7 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.m-user--header {
-    display: flex;
-    flex-direction: column;
-
-    text-align: center;
-
-}
-
+/* Third Container */
 #messages--section {
     border-left: 0.5px solid var(--main-color);
     border-right: 0.5px solid var(--main-color);;
@@ -69,10 +44,12 @@
 
     padding: 30px;
 }
+
 .messages--container {
     margin: 1rem;
     font-size: x-small;
 }
+
 .from--messages {
     border: 0.5px solid var(--light-main-color);
     border-radius: 10px 10px 10px 0px;
@@ -92,4 +69,21 @@
     max-width: 150px;
     
     margin-left: 150px;
+}
+
+.m-user--header {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+}
+
+.profile--photo {
+    border: 1px solid var(--main-color);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+    margin-left: 7.7rem;
 }

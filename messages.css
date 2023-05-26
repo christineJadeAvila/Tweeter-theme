@@ -7,7 +7,7 @@
 .cmates {
     margin: 1rem;
 }
-.cmates:hover {
+.cmates:hover { 
     background-color: var(--light-main-color);
 }
 .user--messages {
